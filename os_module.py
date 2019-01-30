@@ -9,3 +9,7 @@ print("List DIR", os.listdir())  # show all folder and file current directory
 #os.rename("actual file",'rename file')
 
 print("Main Python file ", os.stat('main.py'))  # print the file meta data
+print(os.environ.get('HOME'))
+print(os.path.exists('/temp/file.txt'))
+print(os.path.splitext('/temp/file.csv'))
+print(dir(os.path))
